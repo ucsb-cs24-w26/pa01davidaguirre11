@@ -47,10 +47,10 @@ int main(int argv, char** argc){
   //game function
   
   playGame(player1, player2);
-  
+  cout<<endl;
   cout << "Alice's cards: " << endl;
   player1.print();
-  
+  cout<<endl;
   cout << "Bob's cards: " << endl;
   player2.print();
   
