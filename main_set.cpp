@@ -56,11 +56,11 @@ void playGame(set<Card>& player1, set<Card>& player2){
    
     
   //print
-  cout << "\nAlice's cards" << endl;
+  cout << "\nAlice's cards:" << endl;
     for (const auto& card : player1)
         cout << card << endl;
 
-    cout << "\nBob's cards" << endl;
+    cout << "\nBob's cards:" << endl;
     for (const auto& card : player2)
         cout << card << endl;
 }
